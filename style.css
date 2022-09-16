@@ -1,0 +1,75 @@
+body {
+  background-image: url(./assets/bg.jpg);
+  background-position: top center;
+  background-size: 100% auto; /* image config*/
+  background-repeat: no-repeat;
+  background-color: #121214;
+  font-family: "Montserrat", sans-serif;
+  color: #ffff;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+main {
+  max-width: 520px;
+  width: 90%;
+  margin: auto; /*Align items center*/
+  display: grid; /*onde ocorre a divisão dos cards*/
+  gap: 24px;
+}
+
+header {
+  text-align: center;
+  margin: 32px;
+}
+
+header img {
+  width: 120px;
+  border-radius: 50%;
+  background-image: linear-gradient(90deg, #c91842 0%, #5cc2e2 100%);
+  padding: 03px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 16px;
+  margin-top: 32px;
+}
+
+section {
+  /*gradient edge efect*/
+  background-image: linear-gradient(90deg, #c91842 0%, #5cc2e2 100%);
+  padding-top: 04px;
+  border-radius: 10px;
+}
+
+section img {
+  border: 1px solid #555555;
+}
+section div {
+  background-color: #262629;
+  padding: 32px;
+  padding-top: 24px;
+  border-radius: 8px;
+}
+
+section h2 {
+  line-height: 160%;
+}
+
+section p {
+  line-height: 160%;
+  letter-spacing: -0.18px;
+  color: #c1c1c1;
+}
+
+div img {
+  width: 100px;
+  height: 150px;
+  border-radius: 8px;
+}
